@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "name": "Elden Lord",
+    "at": "@EldenRing",
+    "img_src": "./src/images/profile/profile_1.png"
+  },
+  "highline": {
+    "description": [
+      "Your Stories",
+      "Your View",
+      "Your Emotion",
+      "Your Opinion",
+      "Your Feeling",
+      "Your Love"
+    ]
+  },
+  "cards": [
+    {
+      "id": "1",
+      "profile": {
+        "src": "./src/images/profile/profile_2.png",
+        "name": "Lana Rose",
+        "position": "Somewhere",
+        "time": "15 MINUTES AGO"
+      },
+      "picture": {
+        "img_src": "./src/images/post/post_5.jpeg"
+      },
+      "comment": {
+        "img_src_list": [
+          "./src/images/profile/profile_5.png",
+          "./src/images/profile/profile_6.png",
+          "./src/images/profile/profile_7.png"
+        ],
+        "first_people_name": "Ernest Achiever",
+        "like_peoples_number": 2323,
+        "comment_info": "Lana Rose Lorem ipsum dolor sit quisquam eius. #lifestyle",
+        "view_number": 3473
+      }
+    },
+    {
+      "id": "2",
+      "profile": {
+        "src": "./src/images/profile/profile_3.png",
+        "name": "Lana Rose",
+        "position": "Somewhere",
+        "time": "15 MINUTES AGO"
+      },
+      "picture": {
+        "img_src": "./src/images/post/post_6.jpeg"
+      },
+      "comment": {
+        "img_src_list": [
+          "./src/images/profile/profile_5.png",
+          "./src/images/profile/profile_6.png",
+          "./src/images/profile/profile_7.png"
+        ],
+        "first_people_name": "Ernest Achiever",
+        "like_peoples_number": 2323,
+        "comment_info": "Lana Rose Lorem ipsum dolor sit quisquam eius. #lifestyle",
+        "view_number": 3473
+      }
+    },
+    {
+      "id": "3",
+      "profile": {
+        "src": "./src/images/profile/profile_4.png",
+        "name": "Lana Rose",
+        "position": "Somewhere",
+        "time": "15 MINUTES AGO"
+      },
+      "picture": {
+        "img_src": "./src/images/post/post_7.jpeg"
+      },
+      "comment": {
+        "img_src_list": [
+          "./src/images/profile/profile_5.png",
+          "./src/images/profile/profile_6.png",
+          "./src/images/profile/profile_7.png"
+        ],
+        "first_people_name": "Ernest Achiever",
+        "like_peoples_number": 2323,
+        "comment_info": "Lana Rose Lorem ipsum dolor sit quisquam eius. #lifestyle",
+        "view_number": 3473
+      }
+    },
+    {
+      "id": "4",
+      "profile": {
+        "src": "./src/images/profile/profile_5.png",
+        "name": "Lana Rose",
+        "position": "Somewhere",
+        "time": "15 MINUTES AGO"
+      },
+      "picture": {
+        "img_src": "./src/images/post/post_8.jpeg"
+      },
+      "comment": {
+        "img_src_list": [
+          "./src/images/profile/profile_5.png",
+          "./src/images/profile/profile_6.png",
+          "./src/images/profile/profile_7.png"
+        ],
+        "first_people_name": "Ernest Achiever",
+        "like_peoples_number": 2323,
+        "comment_info": "Lana Rose Lorem ipsum dolor sit quisquam eius. #lifestyle",
+        "view_number": 3473
+      }
+    },
+    {
+      "id": "ef02",
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+    }
+  ],
+  "message": [
+    {
+      "id": "1",
+      "src": "./src/images/profile/profile_2.png",
+      "name": "Tomas Li",
+      "msg": "Hi, Long time no see!"
+    },
+    {
+      "id": "2",
+      "src": "./src/images/profile/profile_3.png",
+      "name": "Lana Rose",
+      "msg": "Birthday Tomorrow!"
+    },
+    {
+      "id": "3",
+      "src": "./src/images/profile/profile_4.png",
+      "name": "No One",
+      "msg": "lol u right."
+    },
+    {
+      "id": "4",
+      "src": "./src/images/profile/profile_5.png",
+      "name": "Emily",
+      "msg": "emm, sounds good."
+    },
+    {
+      "id": "5",
+      "src": "./src/images/profile/profile_6.png",
+      "name": "Alex",
+      "msg": "hang on, give me a sec."
+    }
+  ],
+  "request": [
+    {
+      "id": "1",
+      "src": "./src/images/profile/profile_7.png",
+      "name": "Hajia Bintu",
+      "mutualFriendNum": 8
+    },
+    {
+      "id": "2",
+      "src": "./src/images/profile/profile_8.png",
+      "name": "Jackline Mensah",
+      "mutualFriendNum": 19
+    }
+  ]
+}
